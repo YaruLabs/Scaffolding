@@ -13,7 +13,7 @@ export function Navbar() {
           🏗️ COTI Scaffolding
         </Link>
         <div className="flex space-x-4">
-            <button className="rounded-xl bg-blue-500 px-2 text-white font-semibold text-md hover:transition-100">
+            <button className="rounded-xl bg-blue-500 px-2 text-white font-semibold shadow-md text-md transform transition-transform duration-200 hover:scale-110">
                 🔑 <span className="m-1">Onboard</span>
             </button>
             <ConnectButton/>
