@@ -7,7 +7,6 @@ import { WagmiProvider } from 'wagmi';
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 
 import { config } from '../wagmi';
-import { TransactionHistory } from '../components/TransactionHistory';
 
 const client = new QueryClient();
 
@@ -17,7 +16,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <QueryClientProvider client={client}>
         <RainbowKitProvider>
           <Component {...pageProps} />
-          <TransactionHistory />
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
