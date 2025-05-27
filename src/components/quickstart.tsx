@@ -14,7 +14,7 @@ export function QuickStartGuide() {
       setTimeout(() => setCopied(false), 2000)
     }
 
-    const installCommand = "git clone https://coti/scaffolding"
+    const installCommand = "git clone https://github.com/RafaBlockDev/COTI-Scaffolding.git"
 
   return (
     <div className="w-full max-w-4xl mx-auto bg-white text-gray-900 p-8 rounded-lg border border-gray-200 shadow-lg">
